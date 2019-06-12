@@ -9,7 +9,7 @@ insert into ncp_rtn_cd_trans (ID, RTN_CD, RTN_DESC, CUPS_RTN_CD, CUPS_RTN_DESC, 
 values ('1111', '11111111', 'esb异常', 'ES000033', '接收方超过系统响应时限未向平台返回应答回执', '1', null);
 
 --银联前置流水表BTH_GC_TXN_TDB扩充字段
-
+--湿哒哒
 alter table BTH_GC_TXN_TDB modify(OPEN_INST varchar2(562));
 
 
